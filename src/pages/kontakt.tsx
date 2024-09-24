@@ -31,8 +31,8 @@ export default function Contact() {
 function Socials(props: {className?: string}) {
   return (
     <div className={props.className + ' text-lg'}>
-      <ContactInfoItem icon={<FiMail />} href="mailto:info@vasenkecteni.cz">
-        info@vasenkecteni.cz
+      <ContactInfoItem icon={<FiMail />} href="mailto:vasenkecteni@gmail.com">
+        vasenkecteni@gmail.com
       </ContactInfoItem>
 
       <ContactInfoItem icon={<FaInstagram />} href="https://www.instagram.com/vasenkecteni">
@@ -58,7 +58,7 @@ function LegalInfo(props: {className?: string}) {
     <div className={props.className + ' text-lg'}>
       <p>Vášeň ke čtení, z.s.</p>
       <p>Skrétova 475/8, Jižní Předměstí, 301 00 Plzeň</p>
-      <p>IČO: 78623091</p>
+      <p>IČO: 19509634</p>
     </div>
   )
 }

@@ -7,10 +7,9 @@ import {pages} from "~/constants";
 export default function AboutUs() {
   return (
     <Page metaTitle={"O nás"}>
-
       <Section.Meta title={"O nás"}>
         <AboutFounderSection/>
-        <PeopleSection/>
+        {/*<PeopleSection/>*/}
         <WannaJoin/>
       </Section.Meta>
     </Page>
@@ -65,7 +64,7 @@ function PeopleSection() {
   )
 }
 
-function PersonPanel(props: PropsWithChildren<{name: string, position: string, imgSrc: string, imgAlt?: string}>) {
+function PersonPanel(props: PropsWithChildren<{ name: string, position: string, imgSrc: string, imgAlt?: string }>) {
   return (
     <div className={"space-y-5 max-w-[300px] text-center"}>
       <img src={props.imgSrc} alt={props.imgSrc} title={props.imgSrc} className={"h-56 w-auto mx-auto"}/>

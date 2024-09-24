@@ -15,7 +15,7 @@ export const mainTransport: SMTPTransport.Options = {
     user: env.EMAIL_USERNAME_MAIN,
     pass: env.EMAIL_PASSWORD,
   },
-  from: `Vášeň ke čtení <${env.EMAIL_USERNAME_MAIN}>`
+  from: `Vášeň ke čtení | neodpovidat | <${env.EMAIL_USERNAME_MAIN}>`
 }
 
 export const noreplyTransport: SMTPTransport.Options = {

@@ -56,7 +56,7 @@ function Panel(props: PropsWithChildren<{title: string}>) {
 function ContactInfoPanel() {
   return (
     <Panel title={"Kontakt"}>
-      <a href={"mailto:info@vasenkecteni.cz"}>info@vasenkecteni.cz</a>
+      <a href={"mailto:vasenkecteni@gmail.com"}>vasenkecteni@gmail.com</a>
       <a href={"tel:+420 739 304 270"}>+420 739 304 270</a>
       <div className={"inline-flex gap-4 text-[20px] mt-[10px] mx-auto"}>
         <a href="https://www.instagram.com/vasenkecteni"><BsInstagram /></a>
@@ -102,7 +102,7 @@ function LegalInfo() {
       <p className={"whitespace-pre-line"}>
         Vášeň ke čtení, z.s.{"\n"}
         Skrétova 475/8, Jižní Předměstí, 301 00 Plzeň{"\n"}
-        IČO: 78623091
+        IČO: 19509634
       </p>
     </div>
   )

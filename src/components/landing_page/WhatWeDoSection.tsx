@@ -31,7 +31,8 @@ function WhereWeRead() {
     <Section title={"Kde momentálně čteme?"} imgSrc={"/landing_page/reading_location.png"} imgPos={"right"}
              imgAlt={"Kdo je u nás vítán?"}>
       <p>
-        Momentálně jsme spouštíme v Alzheimerově domově v Českých Budějovicích. Náš projekt spočívá v uskutečňování
+        Momentálně čteme v domově pro seniory Máj a Centrum sociálních služeb Staroměstská v Českých Budějovicích. Náš
+        projekt spočívá v uskutečňování
         pravidelných čtenářských setkání, kdy do domova zavítáme s knihami, které potěší srdce každého – od klasických
         příběhů až po moderní literaturu. <br/><br/>
 
