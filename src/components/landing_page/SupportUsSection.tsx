@@ -1,7 +1,6 @@
 import Section from "~/components/landing_page/Section";
 import React from "react";
 import {pages} from "~/constants";
-import SupportUsForm from "~/components/SupportUsForm";
 
 export default function SupportUsSection() {
   return (
