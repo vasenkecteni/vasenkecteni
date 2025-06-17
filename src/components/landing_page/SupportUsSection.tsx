@@ -22,7 +22,6 @@
           S úctou a pokorou, Tým Vášeň ke čtení
         </p>
       </div>
-      <SupportUsForm/>
     </div>
   )
 }
