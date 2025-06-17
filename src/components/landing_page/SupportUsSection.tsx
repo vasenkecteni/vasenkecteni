@@ -1,4 +1,4 @@
- return (
+print (
     <div className={"flex flex-col lg:flex-row gap-28 justify-between"}>
       <div className={""}>
         <p>
