@@ -2,7 +2,6 @@ import React from "react";
 import Page from "~/components/Page";
 import WhatWeDoSection from "~/components/landing_page/WhatWeDoSection";
 import OurTeamSection from "~/components/landing_page/OurTeamSection";
-import SupportUsSection from "~/components/landing_page/SupportUsSection";
 import Header from "~/components/landing_page/Header";
 
 export default function Home() {
