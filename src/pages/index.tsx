@@ -14,7 +14,6 @@ export default function Home() {
         <div className={"space-y-32"}>
           <WhatWeDoSection/>
           <OurTeamSection/>
-          <SupportUsSection/>
         </div>
       </Page>
     </>
