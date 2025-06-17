@@ -1,12 +1,4 @@
-import Section from "~/components/landing_page/Section";
-import React from "react";
-import {pages} from "~/constants";
 
-export default function SupportUsSection() {
-  return (
-    <Section.Meta title={"Podpořte nás"} id={pages.home.donateId}>
-      <SupportUs/>
-    </Section.Meta>
   )
 }
 
